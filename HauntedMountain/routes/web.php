@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
-use App\Http\Controllers\InformacionGeneral;
+use App\Http\Controllers\login;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,4 +23,4 @@ Route::get('/inicio', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('/informacionGeneral', [InformacionGeneral::class, 'informacion'])->name('informacion.index');
+Route::get('/login', [login::class, 'login'])->name('login.index');

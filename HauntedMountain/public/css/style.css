@@ -296,6 +296,7 @@ footer li{
     margin-top: 20px;
     text-transform: capitalize;
 }
+
 @font-face {
     font-family: 'Komikula';
     src: url('../fonts/Komikula.otf');
@@ -304,3 +305,4 @@ footer li{
     font-family: 'Roasted';
     src: url('../fonts/Roasted.ttf');
 }
+
